@@ -11,3 +11,23 @@
   border-radius: 100%;
   margin-left: 10px;
 }
+
+.nav-transparent {
+  position: absolute;
+  margin-top: 25px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.btn-color-brown {
+  background-color: #998675;
+  border-color: #998675;
+  padding: 10px 30px;
+}
+
+.fa-small {
+  padding: 12px;
+  margin-left: 10px;
+}
