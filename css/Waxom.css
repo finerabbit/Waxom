@@ -57,6 +57,10 @@
   font-weight: bold;
 }
 
+.bg-wheat {
+  background-color: rgb(251, 250, 248);
+}
+
 .fa-small {
   padding: 12px;
   margin-left: 10px;
