@@ -18,13 +18,43 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 2;
+  z-index: 2030;
+}
+
+.nav-li-white {
+  color: white!important;
+}
+
+.boader-none {
+  border: none;
+}
+
+.nav-li-white:hover {
+  color: #d6a77e!important;
+}
+
+.icon-width {
+  width: 50px;
 }
 
 .btn-color-brown {
   background-color: #998675;
   border-color: #998675;
   padding: 10px 30px;
+}
+
+.btn-color-brown:hover {
+  background-color: #a0754f;
+  border-color: #a0754f;
+}
+
+.main-font-big {
+  font-size: 35px;
+}
+
+.main-font-big-bold {
+  font-size: 50px;
+  font-weight: bold;
 }
 
 .fa-small {
