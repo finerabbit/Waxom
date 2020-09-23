@@ -65,6 +65,14 @@
   background-image: linear-gradient(to right, rgb(33,28,25) , rgb(78,52,39));
 }
 
+.text-brown {
+  color: rgb(78,68,66);
+}
+
+.text-light-brown {
+  color: rgb(199,177,153);
+}
+
 .fa-small {
   padding: 12px;
   margin-left: 10px;
