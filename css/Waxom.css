@@ -41,6 +41,7 @@
   background-color: #998675;
   border-color: #998675;
   padding: 10px 30px;
+  box-shadow: 0px 3px rgb(115,99,86);
 }
 
 .btn-color-brown:hover {
@@ -78,6 +79,60 @@
   margin-left: 10px;
 }
 
+.btn-outline-brown {
+  margin: 20px 5px;
+  border-color: #998675;
+}
+
+.btn-outline-brown:hover {
+  background-color: #998675;
+  color: white;
+}
+
+.ig-width {
+  max-width: 100%;
+  height: auto;
+}
+
+.ig-highlight:hover {
+  cursor: pointer;
+  background-color: rgb(55,47,45);
+}
+
+.ig-highlight:hover h4 {
+  color: white;
+}
+
+.ig-highlight:hover p {
+  color: rgb(199,177,153);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.ig-effect {
+  /*position: relative;*/
+}
+
+.ig-highlight:hover .overlay {
+  opacity: 0.7;
+}
+
+.ig-icon {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
 
 @media only screen and (max-width: 768px) {
   .d-flex {
