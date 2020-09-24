@@ -34,7 +34,19 @@
 }
 
 .icon-width {
-  width: 50px;
+  max-width: 100%;
+}
+
+.icon-highlight:hover {
+  cursor: pointer;
+}
+
+.icon-highlight:hover h4 {
+  color: #d6a77e;
+}
+
+.icon-highlight:hover span {
+  color: #d6a77e;
 }
 
 .btn-color-brown {
@@ -125,7 +137,7 @@
 }
 
 .ig-highlight:hover .overlay {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .ig-icon {
