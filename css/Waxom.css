@@ -162,6 +162,10 @@
   text-align: center;
 }
 
+.video-highlight:hover{
+  cursor: pointer;
+}
+
 .video-highlight:hover .video-button {
   display: block;
 }
@@ -179,8 +183,27 @@
   height: auto;
 }
 
+.li-icon {
+  list-style: none;
+  background: url('../image/li-icon.png') no-repeat left center;
+  height: auto;
+  padding-left: 50px;
+  padding-top: 0px;
+  margin-top: 5px;
+}
+
 @media only screen and (max-width: 768px) {
   .d-flex {
     display: inline-block!important;
+  }
+
+  .video-highlight:hover p.disappear {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .video-highlight:hover h2.disappear {
+    display: none;
   }
 }
