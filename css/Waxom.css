@@ -142,8 +142,41 @@
 
 .ig-icon {
   position: absolute;
-  top: 40%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.video-main {
+  position: relative;
+}
+
+.video-button {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.video-highlight:hover .video-button {
+  display: block;
+}
+
+.video-highlight:hover .overlay {
+  opacity: 0.6;
+}
+
+.video-highlight:hover .text-color-white {
+  color: white;
+}
+
+.video-back {
+  max-width: 100%;
+  height: auto;
 }
 
 @media only screen and (max-width: 768px) {
