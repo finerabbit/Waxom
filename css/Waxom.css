@@ -27,6 +27,7 @@
 
 .boader-none {
   border: none;
+  background-color: transparent;
 }
 
 .nav-li-white:hover {
@@ -200,6 +201,11 @@
   color: #959595;
 }
 
+.col-md-five {
+  max-width: 20%;
+  width: 100%;
+}
+
 .footer-main {
   padding: 40px 0;
   color: rgb(86, 86, 86);
@@ -216,6 +222,10 @@
 
   .video-highlight:hover p.disappear {
     display: none;
+  }
+
+  .col-md-five {
+    max-width: 100%;
   }
 }
 
