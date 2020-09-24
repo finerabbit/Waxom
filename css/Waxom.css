@@ -192,6 +192,23 @@
   margin-top: 5px;
 }
 
+.bg-black {
+  background-color: black;
+}
+
+.text-light-white {
+  color: #959595;
+}
+
+.footer-main {
+  padding: 40px 0;
+  color: rgb(86, 86, 86);
+}
+
+.footer-main p {
+  margin: 0;
+}
+
 @media only screen and (max-width: 768px) {
   .d-flex {
     display: inline-block!important;
