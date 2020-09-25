@@ -120,6 +120,10 @@
   color: rgb(199,177,153);
 }
 
+.ig-highlight:hover a {
+  color: white;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -134,7 +138,7 @@
 }
 
 .ig-effect {
-  /*position: relative;*/
+  position: relative;
 }
 
 .ig-highlight:hover .overlay {
@@ -204,6 +208,43 @@
 .col-md-five {
   max-width: 20%;
   width: 100%;
+}
+
+.btn-date {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.ig-highlight:hover .btn-day {
+  background-color: rgb(199,177,153);
+  z-index: 30;
+}
+
+.ig-highlight:hover .btn-month {
+  background-color: rgb(161,141,115);
+  z-index: 30;
+}
+
+.btn-day {
+  background-color: rgb(54,54,54);
+  color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: x-large;
+}
+
+.btn-month {
+  background-color: rgb(37,37,37);
+  color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: small;
+}
+
+.btn-arrow {
+  color: wheat;
+  font-size: 30px;
 }
 
 .footer-main {
